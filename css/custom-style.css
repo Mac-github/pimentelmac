@@ -1,0 +1,194 @@
+*{
+	margin:0 auto;
+}
+html{
+	padding: 0;
+	overflow-x: hidden;
+}
+body{
+	font-family: Verdana, Sans-serif;
+	overflow-x: hidden;
+}
+
+/*Text Formatting*/
+.t-bold{
+	font-weight: bold;
+}
+.t-upper{
+	text-transform: uppercase;
+}
+.t-blue{
+ color: #336699;
+}
+.t-white{
+	color:#fff;
+}
+.t-yellow{
+	color: #ffc107;
+}
+.t-green{
+	color: #4caf50;
+}
+.t-orange ,.active{
+	color:#cc6633!important;
+}
+.t-gray{
+	color: #eee;
+}
+.t-pink{
+	color: #e91e63;
+}
+.t2{
+	font-size: 1.5em;
+}
+/*Background Styles*/
+.bg-gray{
+	background-color: #ccc;
+}
+.bg-black{
+	/*background-color: #000;*/
+	background-image: url("../img/bg-main.jpeg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment: inherit;
+}
+.bg-o{
+	background-color: #cc6633;
+}
+
+/*Div Styles*/
+#one{
+	height: 100vh;
+	width: 100%;
+	justify-content: center;
+	align-content: center;
+	background-image: url("../img/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: inherit;
+	margin:0!important;
+}
+#mc{
+	width: initial;
+	height: initial;
+}
+#l-div{
+	text-align: right;
+}
+#hl{
+	font-size: 3.5em;
+}
+#lp{
+	font-size: 6em;
+}
+#fe{
+	font-size:1.5em; 
+}
+#dr{
+	padding:1% 2%;
+	border-radius: 5px; 
+}
+#dr:hover{
+	text-decoration: none!important;
+	color: #fff;
+	background-color: rgba(204,102,51,0.9);
+	border:1px solid rgba(204,102,51,1);
+	transition: all 300ms;
+
+}
+/*Navigation*/
+#menuTop{
+	width: 95%;
+	align-items: right!important;
+}
+#menuTop ul{
+float:right;
+}
+#menuTop ul li{
+	display: inline-block;
+	float: left;
+}
+#menuTop ul li:not(:first-child){
+	margin-left: 50px;
+}
+#burger{
+	opacity:0.8;
+}
+.navbar-toggle {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border:none;
+}
+.navbar-toggle:hover, .navbar-toggle:focus, .navbar-toggle:active  {
+  text-decoration: none;
+  border:none;
+}
+.navbar-toggle:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.navbar-toggle-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+/*Skills*/
+#skills .skills-img{
+	display: inline-block;
+	margin: 10px;
+}
+#skills .skills-img img{
+	width:50px;
+	height: 50px;
+	border-radius:50px;
+}
+
+/*Floating Button*/
+.fab-b{
+	right: 30px;
+	bottom: 50px;
+	position: absolute;
+}
+#plus{
+	padding: 25px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100px;
+}
+#fab-b ul{
+	list-style: none;		
+}
+.sc{
+	width: 50px;
+	height: 50px;
+}
+/*Responsive*/
+@media(max-width: 991px){
+
+body{
+	overflow-x: hidden;
+}
+#l-div{
+	text-align: center;
+}
+#hl{
+	font-size: 1.8em;
+}
+#lp{
+	font-size: 2em;
+}
+#fe{
+	font-size:1em; 
+}
+#r-div{
+	text-align: center;
+}
+}

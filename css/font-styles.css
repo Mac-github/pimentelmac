@@ -1,0 +1,44 @@
+/*Text Formatting*/
+.t-bold{
+	font-weight: bold;
+}
+.t-upper{
+	text-transform: uppercase;
+}
+.t-blue{
+ color: #336699;
+}
+.t-white{
+	color:#fff;
+}
+.t-yellow{
+	color: #ffc107;
+}
+.t-green{
+	color: #4caf50;
+}
+.t-orange ,.active{
+	color:#cc6633!important;
+}
+.t-gray{
+	color: #eee;
+}
+.t-pink{
+	color: #e91e63;
+}
+.t2{
+	font-size: 1.5em;
+}
+/*Explore*/
+.t-y{
+	color: #f7b246;
+}
+.t-b{
+	color: #046ca1;
+}
+.t-green{
+	color: #459f62;
+}
+.t-o{
+	color: #e9862f;
+}
