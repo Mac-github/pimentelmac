@@ -17,3 +17,22 @@
 		width: 20rem;
 	}
 }
+@media (max-width: 1024px){
+
+	.panel, .panel-left, .panel-mid{
+		position: initial;
+		width:initial;
+		height: initial;
+	}
+	.carousel-item{
+		padding-left: 0.6rem;
+	}
+	.team{
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+	}
+	.carousel-inner{
+		width: 20rem;
+	}
+}

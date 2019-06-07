@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
 *{
 	margin:0 auto;
 }
@@ -25,7 +27,7 @@ body{
 }
 .qoute{
 	padding: 0;
-	font-family: Courier;
+	font-family: 'Caveat', cursive!important;
 }
 header, section{
 	overflow-x: hidden;
@@ -33,6 +35,9 @@ header, section{
 :root{
 	--gradientbg:linear-gradient(to bottom, #ffb03a, #468966);
 	--bggradient:linear-gradient(to bottom, #468966,#7abf9b);
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Bree Serif', Verdana, Arial, Sans-serif!important;
 }
 /*Navigation*/
 header{
@@ -249,7 +254,7 @@ a.btn-black:hover{
 }
 .footer-nav li{
 	border-bottom: 1px solid #fff;
-	padding-top: 4vmin;
+	padding-top: 5vmin;
 }
 .footer-nav li:hover{
 	color:#468966;
@@ -264,3 +269,7 @@ a.btn-black:hover{
 	box-shadow: 0px 25px 42px rgba(0,0,0,0.5);
 	margin-bottom: 5vmin;
 }
+.tooltip-nav + .tooltip > .tooltip-inner {
+    background-color: #f00!important;
+}
+

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700&display=swap');
 *{
 	margin:0 auto;
 }
@@ -41,6 +42,10 @@ body{
 .t2{
 	font-size: 1.5em;
 }
+h1{
+    font-family: 'IBM Plex Sans',Verdana, Geneva, Tahoma, sans-serif!important;
+
+}
 /*Background Styles*/
 .bg-gray{
 	background-color: #ccc;
@@ -50,8 +55,8 @@ body{
 	background-image: url("../img/bg-main.jpeg");
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-position: center;
-	background-attachment: inherit;
+	background-position: relative;
+	background-attachment: center;
 }
 .bg-o{
 	background-color: #cc6633;
@@ -66,8 +71,8 @@ body{
 	background-image: url("../img/bg.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	background-position: center;
-	background-attachment: inherit;
+	background-position: relative;
+	background-attachment: center;
 	margin:0!important;
 }
 #mc{
