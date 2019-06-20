@@ -13,6 +13,12 @@ nav{
 	z-index: 9999;
 	padding-top:1em;
 }
+.text-yellow{
+	color:#ffff00!important;
+}
+.text-orange{
+	color:rgba(255,87,34,1)!important;
+}
 /*////New Parallax/////*/
 #landing-page{
 	background-image: url("../img/img-explore/bg-wave.jpg");
@@ -75,12 +81,24 @@ nav{
 h1,h2,h3,h4,h4{
 	/*color:blue!important;*/
 }
+.box-box{
+	margin: 0 2vmin;
+	box-sizing: border-box;
+}
+.hPanel{
+	background: #fff;
+	border-radius: 3px;
+	text-align: left;
+	padding: 4vmin 10vmin 4vmin 10vmin;
+	box-shadow: 0px 25px 42px rgba(0,0,0,0.5);
+}
 .panel{
 	background: #fff;
 	border-radius: 3px;
 	text-align: left;
-	padding: 8vmin 5vmin 13vmin 10vmin;
+	padding: 8vmin 5vmin 8vmin 5vmin;
 	box-shadow: 0px 25px 42px rgba(0,0,0,0.5);
+	margin-bottom: 2vmin;
 }
 .divPara{
 	width: 50%;
@@ -222,7 +240,7 @@ a.aBtn:hover{
 }
 #fifthSection{
 	width: 100%;
-	padding: 5em 0;
+	padding: 2em 0;
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -239,7 +257,7 @@ a.aBtn:hover{
 
 #sixthSection{
 	width: 100%;
-	height: 100vh;
+	padding: 2vmin;
 	background-image: url("../img/img-explore/19.jpg");
 	background-position:center;
 	background-attachment:fixed;
