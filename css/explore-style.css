@@ -5,13 +5,26 @@
 body, section{
 	overflow-x: hidden;
 }
-nav{
+.navi{
 	position: absolute;
 	width: 100%;
 	top: 0;
 	left: 0;
 	z-index: 9999;
 	padding-top:1em;
+	/*background-color: rgba(255,255,255,0.2);*/
+}
+.navi a{
+	color:white;
+	font-weight:bold;
+	font-size: 1.2em;
+	margin-left: 1em; 
+}
+.navi a:hover{
+	color:rgba(255,87,34,1);
+	font-weight:bold;
+	font-size: 1.2em;
+	margin-left: 1em; 
 }
 .text-yellow{
 	color:#ffff00!important;
@@ -19,6 +32,26 @@ nav{
 .text-orange{
 	color:rgba(255,87,34,1)!important;
 }
+.btn-orange{
+	background-color: rgba(255,87,34,1)!important;
+	color:#fff!important;
+	border:none!important;
+}
+/*////Navigation////////////*/
+.nav-ul{ 
+	float: right;
+	list-style: none;
+}
+.nav-ul li{
+	display: inline-block;
+}
+.nav-ul li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 1.2em;
+}
+
 /*////New Parallax/////*/
 #landing-page{
 	background-image: url("../img/img-explore/bg-wave.jpg");
@@ -272,6 +305,19 @@ footer{
 	padding: 2vmin 0;
 	background-color: #000;
 }
+.f-nav{
+	list-style: none;
+}
+.f-nav a{
+	color: #fff;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+.f-nav a:hover{
+	color:rgba(255,87,34,1)!important;
+	text-decoration: none;
+}
+
 @media(max-width: 530px){
 	.panel{
 		text-align: center;
