@@ -12,23 +12,38 @@
 </head>
 <body>
 	<header>
-		<nav>
-			<div class="container">	
-				<div class="row">	
-					<div class="col-md-6">
-						<img src="img/img-explore/logo-exp.png" width="15%" height="auto">
-					</div>
-					<div class="col-md-6"></div>
-				</div>	
-			</div>	
-		</nav>
+		<div class="navi">	
+		<nav class="navbar navbar-expand-md">
+		      <img class="m-0" src="img/img-explore/logo-exp.png" width="80px" height="auto">
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+		        <i class="fa fa-align-right fa-2x text-white">	</i>
+		      </button>
+
+		      <div class="collapse navbar-collapse" id="navbarsExample04">
+		      	<div class="mr-auto"></div>
+		        <ul class="navbar-nav m-0">
+		          <li class="nav-item active">
+		            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#">Explore</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#">Gallery</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#">Services</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#">Contact us</a>
+		          </li>
+		        </ul>
+		      </div>
+		    </nav>
+		    </div>
 		<section id="landing-page">
-			<div id="landing-bg">
-				
-			</div>
+			<div id="landing-bg"></div>
 			<div class="landingDiv parallax-bg">
-				<!-- <div id="landingDiv"></div> -->
-				<!-- <div id="logoDiv"></div> -->
 				<div id="paraImage"></div>
 				<div id="mainDis"></div>
 			</div>
@@ -222,18 +237,19 @@
 	<footer>
 		<div class="container text-white">	
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-8 l-footer">
 					<h5>Explore Website</h5>
+					<!-- <p class="text-secondary">Copyright &copy2019</p> -->
 				</div>
 				<div class="col-md-4">
 					<h5 >Subscribe to news Letter</h5>
 					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					<form class="form-inline">
+					<form class="form-inline email-footer">
 						<div class="col pl-0">
 							<div class="input-group pr-5">
 								<input type="email" class="form-control bg-light text-muted" placeholder="Email">
-								<div class="input-group-prepend">
-									<div class="input-group-text">
+								<div class="input-group-prepend ">
+									<div class="input-group-text btn-orange">
 										<i class="fa fa-arrow-right"></i>
 									</div>
 								</div>
@@ -241,10 +257,10 @@
 						</div>
 					</form>
 				<div class="connect pt-2">
-						<i class="fa fa-facebook-square"></i>
-						<i class="fa fa-instagram"></i>
-						<i class="fa fa-twitter"></i>
-						<i class="fa fa-behance"></i>
+						<i class="fa fa-facebook-square"> </i> 
+						<i class="fa fa-instagram"> </i> 
+						<i class="fa fa-twitter"> </i> 
+						<i class="fa fa-behance"> </i> 
 					</div>	
 				</div>
 			</div>	
