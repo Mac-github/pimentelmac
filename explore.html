@@ -12,28 +12,44 @@
 </head>
 <body>
 	<header>
-		<nav>
-			<div class="container">	
-				<div class="row">	
-					<div class="col-md-6">
-						<img src="img/img-explore/logo-exp.png" width="15%" height="auto">
-					</div>
-					<div class="col-md-6"></div>
-				</div>	
-			</div>	
-		</nav>
+		<div class="navi">	
+		<nav class="navbar navbar-expand-md">
+		      <img class="m-0" src="img/img-explore/logo-exp.png" width="80px" height="auto">
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+		        <i class="fa fa-align-right fa-2x text-white">	</i>
+		      </button>
+
+		      <div class="collapse navbar-collapse" id="navbarsExample04">
+		      	<div class="mr-auto"></div>
+		        <ul class="navbar-nav m-0">
+		          <li class="nav-item active">
+		            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#firstSection">Explore</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#secondSection">Gallery</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#fifthSection">Services</a>
+		          </li>
+		          <li class="nav-item">
+		            <a class="nav-link" href="#">Contact us</a>
+		          </li>
+		        </ul>
+		      </div>
+		    </nav>
+		    </div>
 		<section id="landing-page">
-			<div id="landing-bg">
-				
-			</div>
+			<div id="landing-bg"></div>
 			<div class="landingDiv parallax-bg">
-				<!-- <div id="landingDiv"></div> -->
-				<!-- <div id="logoDiv"></div> -->
 				<div id="paraImage"></div>
 				<div id="mainDis"></div>
 			</div>
 		</section>
 	</header>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up"></i></button>
 	<section id="firstSection" class="py-5">	
 		<div class="container text-center">	
 			<div class="row">
@@ -46,10 +62,10 @@
 					<div class="panel">
 						<!-- FirstPanel -->
 						<div class="row py-2">
-							<div class="col-md-4">
+							<div class="col-md-4 pb-3">
 								<img src="img/img-explore/jump.jpeg" class="img-fluid">
 							</div>
-							<div class="col-md-8">
+							<div class="col-md-8 pb-5">
 								<h3>Beach Mode on</h3>
 								<p class="text-secondary">Unleash the beach mode in you</p>
 								<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -59,10 +75,10 @@
 						</div>
 						<!-- SecondPanel -->
 						<div class="row py-2">
-							<div class="col-md-4">
+							<div class="col-md-4 pb-3">
 								<img src="img/img-explore/hike.jpeg" class="img-fluid">
 							</div>
-							<div class="col-md-8">
+							<div class="col-md-8 pb-5">
 								<h3>Pick your Top-Peak</h3>
 								<p class="text-secondary">Go beyond Mountains</p>
 								<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -73,10 +89,10 @@
 						</div>
 						<!-- ThirdPanel -->
 						<div class="row py-2">
-							<div class="col-md-4">
+							<div class="col-md-4 pb-3">
 								<img src="img/img-explore/motor.jpeg" class="img-fluid">
 							</div>
-							<div class="col-md-8">
+							<div class="col-md-8 pb-5">
 								<h3>Ride on</h3>
 								<p class="text-secondary">Get a good Ride-buddy</p>
 								<p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -123,25 +139,26 @@
 	</section>
 	<section id="fifthSection" class="text-center">
 			<div class="container">
-				<h1 class="pb-3">Explore Our Services</h1>	
+				<h2>Explore Our Services</h2>	
+				<p class="pb-3 text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 				<div class="row">	
-					<div class="col-md-4">
-						<span><i class="fa fa-bus fa-3x"></i></span>
-						<h4>Pane one</h4>
+					<div class="col-md-4 pb-5">
+						<span><i class="fa fa-hotel fa-3x text-orange"></i></span>
+						<h4 class="mt-2">Hotel Accomodation</h4>
 						<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua.</p>
 						<a class="aBtn" href="#">Show Details</a>
 					</div>
-					<div class="col-md-4">
-						<span><i class="fa fa-bus fa-3x"></i></span>
-						<h4>Pane two</h4>
+					<div class="col-md-4 pb-5">
+						<span><i class="fa fa-bus fa-3x text-orange"></i></span>
+						<h4 class="mt-2">Transportation</h4>
 						<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua.</p>
 						<a class="aBtn" href="#">Show Details</a>
 					</div>
-					<div class="col-md-4">
-						<span><i class="fa fa-bus fa-3x"></i></span>
-						<h4>Pane three</h4>
+					<div class="col-md-4 pb-5">
+						<span><i class="fa fa-book fa-3x text-orange"></i></span>
+						<h4  class="mt-2">Tour Packages</h4>
 						<p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua.</p>
 						<a class="aBtn" href="#">Show Details</a>
@@ -150,23 +167,91 @@
 			</div>	
 	</section>
 	<section id="sixthSection" class="text-center py-5">	
-			<h1>Sixth Section</h1>
+			<div class="container">
+			    <div class="row">
+			    	<div class="mb-5 text-white"><h2>Our Trophies</h2></div>	
+			    </div>	
+				<div class="row">
+					<div class="col-md-6">
+						<div class="panel text-center">	
+							<span><i class="fa fa-comment fa-3x text-orange"></i></span>
+							<h4>"The Best!"</h4>
+							<span class=" text-yellow"><i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span> 
+							<p class="mt-2">	
+							 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+							<p class=" text-secondary text-right">-Jose Rizal Bonifacio</p>
+
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="panel text-center">
+									<span><i class="fa fa-star fa-3x text-orange"></i></span>	
+									<h4>"5 stars deserved!"</h4><span class=" text-yellow"><i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span> 
+									<p class="mt-2">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation.</p>
+									<p class="text-secondary  text-right">-Manuel Quezon</p>
+								</div>
+							</div>
+						</div>
+						<div class="row py-2">
+							<div class="col-md-6">
+								<div class="panel text-center">	
+									<span><i class="fa fa-user fa-3x text-orange"></i></span>
+									<h4>"Yummy!"</h4>
+									<span class=" text-yellow"><i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span> 
+									<p class="mt-2">	
+									 Lorem ipsum dolor sit amet, consectetur adipisicing.	
+									</p>
+									<p class="text-secondary  text-right">-Cardo Dalisay</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="panel text-center">
+									<span><i class="fa fa-thumbs-up fa-3x text-orange"></i></span>	
+									<h4>"Approved!"</h4>
+									<span class=" text-yellow"><i class="fa fa-star"> </i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></span> 
+									<p class="mt-2">	
+									 Lorem ipsum dolor sit amet, consectetur.
+									</p>
+									<p class="text-secondary  text-right">-Lola Flora</p>
+								</div>
+							</div>
+						</div>
+>>>>>>> c489cb8ba343adcfaa136300e3e54aee49516064
+					</div>
+				</div>
+			</div>
 	</section>
 	<footer>
 		<div class="container text-white">	
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-8 l-footer">
 					<h5>Explore Website</h5>
+					<!-- <p class="text-secondary">Copyright &copy2019</p> -->
 				</div>
 				<div class="col-md-4">
 					<h5 >Subscribe to news Letter</h5>
 					<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-					<form class="form-inline">
+					<form class="form-inline email-footer">
 						<div class="col pl-0">
 							<div class="input-group pr-5">
 								<input type="email" class="form-control bg-light text-muted" placeholder="Email">
-								<div class="input-group-prepend">
-									<div class="input-group-text">
+								<div class="input-group-prepend ">
+									<div class="input-group-text btn-orange">
 										<i class="fa fa-arrow-right"></i>
 									</div>
 								</div>
@@ -174,10 +259,10 @@
 						</div>
 					</form>
 				<div class="connect pt-2">
-						<i class="fa fa-facebook-square"></i>
-						<i class="fa fa-instagram"></i>
-						<i class="fa fa-twitter"></i>
-						<i class="fa fa-behance"></i>
+						<i class="fa fa-facebook-square"> </i> 
+						<i class="fa fa-instagram"> </i> 
+						<i class="fa fa-twitter"> </i> 
+						<i class="fa fa-behance"> </i> 
 					</div>	
 				</div>
 			</div>	
@@ -186,5 +271,37 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/explore-js.js"></script>
+	<script type="text/javascript">
+		$(function() {
+	      // Smooth Scrolling
+	      $('a[href*="#"]:not([href="#"])').click(function() {
+	        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	          var target = $(this.hash);
+	          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	          if (target.length) {
+	            $('html, body').animate({
+	              scrollTop: target.offset().top
+	            }, 500);
+	            return false;
+	          }
+	        }
+	      });
+	    });
+		//Back to top
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
 </body>
 </html>
