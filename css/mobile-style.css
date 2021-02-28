@@ -84,6 +84,7 @@ label span#nav-burger{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	opacity: 0.75;
 }
 #landingDiv{
 	text-align: center;
