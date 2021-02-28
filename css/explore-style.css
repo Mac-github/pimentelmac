@@ -76,7 +76,6 @@ body, section{
 	justify-content: center;
 	transition-duration:1000ms;
 	transition-timing-function:cubic-bezier(0.34, -0.15, 0.27, 1.55);
-	opacity: 0.75;
 }
 #logoDiv{
 	position: absolute;
